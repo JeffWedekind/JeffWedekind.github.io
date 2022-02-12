@@ -1,0 +1,35 @@
+/* Clear defaults on page */
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Set the Nav Bar Brand */
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+}
+/* Set the Parallax standards */
+.parallax {
+    /* The image used */
+    background-image: url("/IMG/AztecWarrior.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Lobster', cursive;
+}
+/* Link Images to Jumbotrons    */
+.icon2 {
+    background-image: url("/IMG/DarceDaddy.jpg");
+} 
+.icon3 {
+    background-image: url("/IMG/Established.jpg");
+}
+.speakers {
+    background-color: #4c334d;
+}
