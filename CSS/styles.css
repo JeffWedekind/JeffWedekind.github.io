@@ -11,7 +11,7 @@
 /* Set the Parallax standards */
 .parallax {
     /* The image used */
-    background-image: url("/IMG/AztecWarrior.jpg");
+    background-image: url("../IMG/AztecWarrior.jpg");
   
     /* Set a specific height */
     min-height: 500px;
@@ -25,11 +25,29 @@
 }
 /* Link Images to Jumbotrons    */
 .icon2 {
-    background-image: url("/IMG/DarceDaddy.jpg");
+    background-image: url("../IMG/DarceDaddy.jpg");
 } 
 .icon3 {
-    background-image: url("/IMG/Established.jpg");
+    background-image: url("../IMG/Established.jpg");
 }
 .speakers {
     background-color: #4c334d;
+}
+/* Testimonials Back Ground Color */
+.TestBG {
+    height: 100%;
+    width: 100%;
+    background-color: #355070; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #355070, #a5a58d);
+}
+
+/* Accordian Back Ground Color */
+.accordian1 {
+    background-color: #0a9396;
+}
+/* Sponsors back ground image */
+.sponsor {
+    height: 100%;
+  background-color: #0a9396; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, #081c15, #0a9396 );
 }
