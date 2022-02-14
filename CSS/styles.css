@@ -44,10 +44,15 @@
 /* Accordian Back Ground Color */
 .accordian1 {
     background-color: #0a9396;
+    font-family: 'Lobster', cursive;
+    font-size: large;
 }
 /* Sponsors back ground image */
 .sponsor {
     height: 100%;
-  background-color: #0a9396; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to bottom right, #081c15, #0a9396 );
+    background-color: #0a9396; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, #081c15, #0a9396 );
+    font-family: 'Lobster', cursive;
+    font-size: x-large;
+    color: #f0efeb;
 }
