@@ -37,23 +37,10 @@
     width: 100%;
     background-color: #355070; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, #355070, #a5a58d);
-}
-/* Accordian Back Ground Color */
-.accordian1 {
-    background-color: #0a9396;
-    font-family: 'Lobster', cursive;
+    font-family:'Lobster', cursive;
     font-size: large;
+    color: white;
     letter-spacing: 1px;
-}
-/* Sponsors back ground image */
-.sponsor {
-    height: 100%;
-    background-color: #0a9396; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to bottom right, #081c15, #0a9396 );
-    font-family: 'Lobster', cursive;
-    font-size: x-large;
-    letter-spacing: 2px;
-    color: #f0efeb;
 }
 h1 {
     font-family: 'Lobster', cursive;
