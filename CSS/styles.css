@@ -42,6 +42,7 @@
     color: white;
     letter-spacing: 1px;
 }
+/* Start H1 Section */
 h1 {
     font-family: 'Calligraffitti', cursive;
     font-size: x-large;
@@ -49,6 +50,7 @@ h1 {
     color: #f0efeb;
 
 }
+/* Start Media Section */
 @media only screen and (max-width: 375px){
     .TestBG{ 
         background: rgb(62, 163, 74);
