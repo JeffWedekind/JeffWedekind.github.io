@@ -5,7 +5,7 @@
 }
 /* Set the Nav Bar Brand */
 .navbar-brand {
-    font-family: 'Lobster', cursive;
+    font-family: 'Calligraffitti', cursive;
     font-size: x-large;
     letter-spacing: 1px;
 }
@@ -22,7 +22,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Lobster', cursive;
+    font-family: 'Calligraffitti', cursive;
 }
 /* Link Images to Jumbotrons    */
 .icon2 {
@@ -37,15 +37,30 @@
     width: 100%;
     background-color: #355070; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, #355070, #a5a58d);
-    font-family:'Lobster', cursive;
+    font-family: 'Calligraffitti', cursive;
     font-size: large;
     color: white;
     letter-spacing: 1px;
 }
 h1 {
-    font-family: 'Lobster', cursive;
+    font-family: 'Calligraffitti', cursive;
     font-size: x-large;
     letter-spacing: 2px;
     color: #f0efeb;
 
 }
+@media only screen and (max-width: 375px){
+    .TestBG{ 
+        background: rgb(62, 163, 74);
+        color:black;
+        text-shadow: black;
+    }
+}
+@media only screen and (max-width: 425px){
+    .TestBG{ 
+        background: rgba(22, 53, 26, 0.89);
+        color: black;
+        text-shadow: black;
+    }
+}
+
